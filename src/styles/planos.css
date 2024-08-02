@@ -1,8 +1,8 @@
-.services  h2 {
+.planos  h2 {
     margin-bottom: 5rem;  
 }
 
-.services-container {
+.planos-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,32 +10,32 @@
     gap: 2rem;
 }
 
-.services-container .services-box {
+.planos-container .planos-box {
     flex: 1 1 30rem;
     background: var(--snd-bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
     border: .2rem solid var(--bg-color);
-    transition: .5s ease;  
+    transition: .5s ease;
 }
 
-.services-container .services-box:hover {
+.planos-container .planos-box:hover {
     border-color: var(--main-color);
     transform: scale(1.05);
 }
 
-.services-box i {
+.planos-box i {
     font-size: 7rem;
     color: var(--text-color2);
 }
 
-.services-box h3 {
+.planos-box h3 {
     font-size: 2.6rem;
     color: var(--text-color2);
 }
 
-.services-box p {
+.planos-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
     color: var(--text-color2);

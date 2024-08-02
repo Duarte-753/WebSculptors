@@ -43,9 +43,9 @@ ScrollReveal({
     delay: 200,
 });
 
-ScrollReveal().reveal('.home-content, heading', { origin: 'top'});
-ScrollReveal().reveal('.home-img, .services-box, .portifolio-box, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.home-contact h1, .about-img', { origin: 'left' });
+ScrollReveal().reveal('.home-content, heading, .about-content .heading, .services h2, .planos h2, .portifolio h2, .contact h2', { origin: 'top'});
+ScrollReveal().reveal('.home-img, .contact form, .about-content p, .portifolio-box', { origin: 'bottom' }); /*.services-box, fica bugando meu css*/
+ScrollReveal().reveal('.home-contact h1, .about-img, .about-content h3, .services, .planos', { origin: 'left' });
 ScrollReveal().reveal('.home-contact p, .about-contact', { origin: 'right' });
 
 /*======================================= typed js ===================================*/
