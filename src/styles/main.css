@@ -6,24 +6,9 @@
 
 
 :root {
-    --color-azul-1: #09f2d8;
-    --color-vermelho-2: #f32e4d;
-    --color-roxo-3: #740c54;
-    --color-azul-4: #558bab;
-    --color-roxo-5: #9494c4;
-
-    /*paleta de cores pretas*/
-
-    --color-preto-1: #000000;
-    --color-preto-2: #111111;
-    --color-preto-3: #232323;
-    --color-preto-4: #343434;
-    --color-preto-5: #454545;
-
-    --color-neutral-0: #fff;
-
+    
     --bg-color: #fff;
-    --snd-bg-color: #402626;
+    --snd-bg-color:  #343434;
     --text-color: #000000;
     --main-color: #ff0026;
 }
@@ -36,7 +21,7 @@
 }
 
 html {
-    font-size: 70%;
+    font-size: 65.5%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
