@@ -1,15 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
 /*importacão arquivos css para ficar mais organizado*/
 @import url('../styles/home.css');
 @import url('../styles/header.css');
+@import url('../styles/services.css');
+@import url('../styles/about.css');
+@import url('../styles/portifolio.css');
+@import url('../styles/contact.css');
+@import url('../styles/footer.css');
 
 
-:root {
-    
+:root {   
     --bg-color: #fff;
     --snd-bg-color:  #343434;
     --text-color: #000000;
+    --text-color2: #fff;
     --main-color: #ff0026;
 }
 
@@ -36,8 +40,8 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-span {
+/*span {
     color: var(--main-color);
-}
+}*/
 
 
