@@ -21,6 +21,11 @@
     --color-preto-5: #454545;
 
     --color-neutral-0: #fff;
+
+    --bg-color: #fff;
+    --snd-bg-color: #402626;
+    --text-color: #000000;
+    --main-color: #ff0026;
 }
 
 *{
@@ -29,4 +34,25 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+html {
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+
+section {
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+span {
+    color: var(--main-color);
+}
+
 
