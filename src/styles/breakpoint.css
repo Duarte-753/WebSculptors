@@ -11,6 +11,7 @@
 
     section {
         padding: 10rem 3%;
+        
     }
 
     .services {
@@ -57,7 +58,7 @@
     }
 
     .home {
-        flex-direction: column;
+        flex-direction: column;   
     }
 
     .home-content h3 {
