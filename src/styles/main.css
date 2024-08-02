@@ -41,8 +41,33 @@ section {
     padding: 10rem 9% 2rem;
 }
 
-/*span {
+span {
     color: var(--main-color);
-}*/
+}
+
+.backgroud-black {
+    color: var(--text-color2);
+}
+
+.btn {
+    margin-top: 2rem;
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    border: none;
+    text-decoration: none;
+}
+
+.btn:hover {
+    box-shadow: none;
+    background: var(--text-color);
+    transform: scale(1.05);
+}
 
 
