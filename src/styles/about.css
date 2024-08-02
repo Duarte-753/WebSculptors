@@ -9,6 +9,7 @@
 
 .about-img img {
     width: 35vw;
+    display: none;
 }
 
 .heading {
@@ -18,12 +19,19 @@
 
 .about-content h2 {
     text-align: left;
-    line-height: 1.2;
+    line-height: 1.5;
+    text-align: center;
 }
 .about-content h3 {
     font-size: 2.6rem;
+    text-align: center;
 }
 .about-content p {
     font-size: 1.6rem;
     margin: 2rem 0 3rem;
+    font-size: 2rem;
+    font-weight: 600;
+    text-indent: 10px;
+    text-align: justify;
+    hyphens: auto;
 }

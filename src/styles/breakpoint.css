@@ -84,7 +84,7 @@
 
     .about-img img {
         width: 90vw;
-        margin-top: 4rem;
+        display: block;
     }
 
     .services h2 {
