@@ -4,11 +4,13 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
 }
 
 .footer-text {
     font-size: 1.6rem;
+    color: var(--text-color);
+    font-weight: 700;
 }
 
 .footer-iconTop {
@@ -23,10 +25,12 @@
 }
 
 .footer-iconTop:hover {
-    box-shadow: 0 0 1rem var(--main-color);
+    box-shadow: 0 0 1rem var(--text-color);
+    transform: scale(1.2);
+    background: var(--text-color);
 }
 
 .footer-iconTop a i {
     font-size: 2.4rem;
-    color: var(--snd-bg-color);
+    color: var(--bg-color);
 }

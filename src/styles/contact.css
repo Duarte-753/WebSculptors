@@ -1,7 +1,10 @@
-/*Contact*/
+.contact {
+    background: var(--snd-bg-color);
+}
 
 .contact h2 {
     margin-bottom: 3rem;
+    color: var(--text-color2);
 }
 
 .contact form {
@@ -22,10 +25,11 @@
     width: 100%;
     padding: 1.5rem;
     font-size: 1.6rem;
-    color: var(--text-color2);
-    background: var(--snd-bg-color);
+    color: var(--text-color);
+    background: var(--bg-color);
     border-radius: .8rem;
     margin: .7rem 0;
+    font-weight: 700;
 }
 
 .contact form .input-box input {

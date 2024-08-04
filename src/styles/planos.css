@@ -1,5 +1,9 @@
+.planos {
+    background: var(--snd-bg-color);
+}
 .planos  h2 {
     margin-bottom: 5rem;  
+    color: var(--bg-color);
 }
 
 .planos-container {
@@ -12,11 +16,11 @@
 
 .planos-container .planos-box {
     flex: 1 1 30rem;
-    background: var(--snd-bg-color);
+    background: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
-    border: .2rem solid var(--bg-color);
+    border: .4rem solid var(--snd-bg-color);
     transition: .5s ease;
 }
 
@@ -27,16 +31,17 @@
 
 .planos-box i {
     font-size: 7rem;
-    color: var(--text-color2);
+    color: var(--text-color);
 }
 
 .planos-box h3 {
     font-size: 2.6rem;
-    color: var(--text-color2);
+    color: var(--text-color);
 }
 
 .planos-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
-    color: var(--text-color2);
+    color: var(--text-color);
+    font-weight: 700;
 }
