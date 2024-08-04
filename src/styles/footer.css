@@ -4,12 +4,15 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 2rem 9%;
-    background: var(--bg-color);
+    background: var(--snd-bg-color); /*cor de fundo padrao1*/
+   /*background: var(--bg-color);*/
+    box-shadow: 5px 1px 5px rgba(0,0,0,0.1);
 }
 
 .footer-text {
     font-size: 1.6rem;
-    color: var(--text-color);
+    /*color: var(--text-color);*/
+    color: var(--text-color2);
     font-weight: 700;
 }
 
