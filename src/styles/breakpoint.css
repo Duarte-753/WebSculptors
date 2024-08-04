@@ -9,6 +9,10 @@
         padding: 2rem 3%;
     }
 
+    .home-content {
+        text-align: center;
+    }
+
     section {
         padding: 10rem 3%; 
     }
@@ -22,6 +26,7 @@
     }
     .footer {
         padding: 2rem 3%;
+        text-align: center;
     }
 }
 
