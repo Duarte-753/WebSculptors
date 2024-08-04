@@ -22,5 +22,8 @@
 
 .home-content p {
     font-size: 2rem;
+    margin: 2rem 0 3rem;
     font-weight: 600;
+    text-indent: 10px;
+    text-align: justify;
 }
